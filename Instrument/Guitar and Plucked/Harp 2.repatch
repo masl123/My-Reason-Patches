@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<JukeboxPatch version="2.0"  deviceProductID="com.roboticbean.Resonans"  deviceVersion="1.0.1" >
+    <DeviceNameInEnglish>
+        Resonans Physical Synthesizer
+    </DeviceNameInEnglish>
+    <Samples>
+        <SampleReference trueName="Feedback.wav"  userFriendlyName="Feedback.wav"  type="sample" >
+            <DatabasePath>
+                <ReFillName/>
+                <Path>
+                    /Samples/Custom Samples/Feedback.wav
+                </Path>
+            </DatabasePath>
+            <AbsolutePath>
+                <Volume name=""  type="unknown" />
+                <Path partOfReFill="no" >
+                    /Dieser PC/DATA_EXT (H:)/Dateien/Musik/Samples/Custom Samples/Feedback.wav
+                </Path>
+                <NativeURL mode="Win32File" >
+                    file://H:\Dateien\Musik\Samples\Custom Samples\Feedback.wav
+                </NativeURL>
+            </AbsolutePath>
+        </SampleReference>
+    </Samples>
+    <Properties>
+        <Object name="custom_properties" >
+            <Value property="exciter_level"  type="number" >
+                1
+            </Value>
+            <Value property="exciter_level_sensitivity"  type="number" >
+                0.5
+            </Value>
+            <Value property="audio_level"  type="number" >
+                0.9688
+            </Value>
+            <Value property="audio_trigger"  type="boolean" >
+                true
+            </Value>
+            <Value property="sample_keyboard_tracking"  type="number" >
+                0.5
+            </Value>
+            <Value property="sample_transpose"  type="number" >
+                48
+            </Value>
+            <Value property="sample_enable"  type="boolean" >
+                true
+            </Value>
+            <Value property="filter_mode"  type="number" >
+                2
+            </Value>
+            <Value property="filter_cutoff"  type="number" >
+                0.1717
+            </Value>
+            <Value property="filter_resonance"  type="number" >
+                0
+            </Value>
+            <Value property="filter_keyboard"  type="number" >
+                1
+            </Value>
+            <Value property="resonator_mode"  type="number" >
+                1
+            </Value>
+            <Value property="resonator_structure"  type="number" >
+                0.2656
+            </Value>
+            <Value property="resonator_brightness"  type="number" >
+                0.4374
+            </Value>
+            <Value property="resonator_damping"  type="number" >
+                0.6699
+            </Value>
+            <Value property="resonator_position"  type="number" >
+                0.7562
+            </Value>
+            <Value property="brightness_velocity_sens"  type="number" >
+                0.5311
+            </Value>
+            <Value property="damping_sustain"  type="number" >
+                0.5
+            </Value>
+            <Value property="position_random"  type="number" >
+                0.328
+            </Value>
+            <Value property="pitch_octave"  type="number" >
+                4
+            </Value>
+            <Value property="pitch_semi"  type="number" >
+                12
+            </Value>
+            <Value property="pitch_fine"  type="number" >
+                50
+            </Value>
+            <Value property="sub_octave"  type="number" >
+                1
+            </Value>
+            <Value property="resonator_level"  type="number" >
+                1
+            </Value>
+            <Value property="sub_osc_level"  type="number" >
+                0
+            </Value>
+            <Value property="gain"  type="number" >
+                1
+            </Value>
+            <Value property="stereo_spread"  type="number" >
+                0.75
+            </Value>
+            <Value property="pan"  type="number" >
+                0.5
+            </Value>
+            <Value property="exciter_attack"  type="number" >
+                0
+            </Value>
+            <Value property="exciter_decay"  type="number" >
+                0
+            </Value>
+            <Value property="exciter_sustain"  type="number" >
+                0.75
+            </Value>
+            <Value property="exciter_release"  type="number" >
+                0.0799999
+            </Value>
+            <Value property="exciter_env_level"  type="number" >
+                0.2
+            </Value>
+            <Value property="env1_to_impulse"  type="boolean" >
+                true
+            </Value>
+            <Value property="env2_delay"  type="number" >
+                0
+            </Value>
+            <Value property="env2_attack"  type="number" >
+                0
+            </Value>
+            <Value property="env2_hold"  type="number" >
+                0
+            </Value>
+            <Value property="env2_decay"  type="number" >
+                0.0799999
+            </Value>
+            <Value property="env2_sustain"  type="number" >
+                1
+            </Value>
+            <Value property="env2_release"  type="number" >
+                0.0799999
+            </Value>
+            <Value property="env2_looped"  type="boolean" >
+                false
+            </Value>
+            <Value property="env2_sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="env2_delay_synced"  type="number" >
+                0
+            </Value>
+            <Value property="env2_attack_synced"  type="number" >
+                0
+            </Value>
+            <Value property="env2_hold_synced"  type="number" >
+                0
+            </Value>
+            <Value property="env2_decay_synced"  type="number" >
+                0
+            </Value>
+            <Value property="env2_release_synced"  type="number" >
+                1
+            </Value>
+            <Value property="swap_key"  type="number" >
+                128
+            </Value>
+            <Value property="swap_key_2"  type="number" >
+                128
+            </Value>
+            <Value property="velocity_switch"  type="number" >
+                128
+            </Value>
+            <Value property="lfo_waveform"  type="number" >
+                0
+            </Value>
+            <Value property="lfo_phase"  type="number" >
+                0
+            </Value>
+            <Value property="lfo_lag"  type="number" >
+                0
+            </Value>
+            <Value property="lfo_retrig"  type="boolean" >
+                false
+            </Value>
+            <Value property="lfo_rate"  type="number" >
+                0.25
+            </Value>
+            <Value property="lfo_sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="lfo_rate_synced"  type="number" >
+                7
+            </Value>
+            <Value property="vibrato_depth"  type="number" >
+                0
+            </Value>
+            <Value property="vibrato_mw_amount"  type="number" >
+                0
+            </Value>
+            <Value property="vibrato_rate"  type="number" >
+                0.5
+            </Value>
+            <Value property="vibrato_delay"  type="number" >
+                0
+            </Value>
+            <Value property="vibrato_sync"  type="boolean" >
+                false
+            </Value>
+            <Value property="vibrato_rate_synced"  type="number" >
+                13
+            </Value>
+            <Value property="vibrato_delay_synced"  type="number" >
+                0
+            </Value>
+            <Value property="env3_attack"  type="number" >
+                0
+            </Value>
+            <Value property="env3_decay"  type="number" >
+                0.559
+            </Value>
+            <Value property="env3_sustain"  type="number" >
+                0.73
+            </Value>
+            <Value property="env3_release"  type="number" >
+                0.832
+            </Value>
+            <Value property="amp_env"  type="boolean" >
+                false
+            </Value>
+            <Value property="pitch_bend_range"  type="number" >
+                7
+            </Value>
+            <Value property="polyphony"  type="number" >
+                7
+            </Value>
+            <Value property="legato"  type="boolean" >
+                false
+            </Value>
+            <Value property="portamento_mode"  type="number" >
+                0
+            </Value>
+            <Value property="portamento"  type="number" >
+                0
+            </Value>
+            <Value property="mod_amount_1_1"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_2_1"  type="number" >
+                0.5
+            </Value>
+            <Value property="scaling_amount_1"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_1_2"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_2_2"  type="number" >
+                0.5
+            </Value>
+            <Value property="scaling_amount_2"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_1_3"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_2_3"  type="number" >
+                0.5
+            </Value>
+            <Value property="scaling_amount_3"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_1_4"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_2_4"  type="number" >
+                0.5
+            </Value>
+            <Value property="scaling_amount_4"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_1_5"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_2_5"  type="number" >
+                0.5
+            </Value>
+            <Value property="scaling_amount_5"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_1_6"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_2_6"  type="number" >
+                0.5
+            </Value>
+            <Value property="scaling_amount_6"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_1_7"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_2_7"  type="number" >
+                0.5
+            </Value>
+            <Value property="scaling_amount_7"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_1_8"  type="number" >
+                0.5
+            </Value>
+            <Value property="mod_amount_2_8"  type="number" >
+                0.5
+            </Value>
+            <Value property="scaling_amount_8"  type="number" >
+                0.5
+            </Value>
+            <Value property="reverb_on"  type="boolean" >
+                false
+            </Value>
+            <Value property="reverb_predelay"  type="number" >
+                0
+            </Value>
+            <Value property="reverb_time"  type="number" >
+                0.5
+            </Value>
+            <Value property="reverb_lp"  type="number" >
+                0.5
+            </Value>
+            <Value property="reverb_tilt"  type="number" >
+                0.5
+            </Value>
+            <Value property="reverb_amount"  type="number" >
+                0.5
+            </Value>
+            <Value property="delay_on"  type="boolean" >
+                false
+            </Value>
+            <Value property="delay_time"  type="number" >
+                0
+            </Value>
+            <Value property="delay_time_synced"  type="number" >
+                5
+            </Value>
+            <Value property="delay_sync"  type="boolean" >
+                true
+            </Value>
+            <Value property="delay_feedback"  type="number" >
+                0.15
+            </Value>
+            <Value property="delay_tilt"  type="number" >
+                0.5
+            </Value>
+            <Value property="delay_amount"  type="number" >
+                0.33
+            </Value>
+            <Value property="volume"  type="number" >
+                1
+            </Value>
+            <Value property="enable_resonator"  type="boolean" >
+                true
+            </Value>
+            <Value property="exciter_mode"  type="number" >
+                1
+            </Value>
+            <Value property="sample_mixdown_mode"  type="number" >
+                0
+            </Value>
+            <Value property="mod_source_1"  type="number" >
+                2
+            </Value>
+            <Value property="mod_dest_1_1"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_2_1"  type="number" >
+                0
+            </Value>
+            <Value property="scaling_source_1"  type="number" >
+                0
+            </Value>
+            <Value property="mod_source_2"  type="number" >
+                7
+            </Value>
+            <Value property="mod_dest_1_2"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_2_2"  type="number" >
+                0
+            </Value>
+            <Value property="scaling_source_2"  type="number" >
+                0
+            </Value>
+            <Value property="mod_source_3"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_1_3"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_2_3"  type="number" >
+                0
+            </Value>
+            <Value property="scaling_source_3"  type="number" >
+                0
+            </Value>
+            <Value property="mod_source_4"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_1_4"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_2_4"  type="number" >
+                0
+            </Value>
+            <Value property="scaling_source_4"  type="number" >
+                0
+            </Value>
+            <Value property="mod_source_5"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_1_5"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_2_5"  type="number" >
+                0
+            </Value>
+            <Value property="scaling_source_5"  type="number" >
+                0
+            </Value>
+            <Value property="mod_source_6"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_1_6"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_2_6"  type="number" >
+                0
+            </Value>
+            <Value property="scaling_source_6"  type="number" >
+                0
+            </Value>
+            <Value property="mod_source_7"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_1_7"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_2_7"  type="number" >
+                0
+            </Value>
+            <Value property="scaling_source_7"  type="number" >
+                0
+            </Value>
+            <Value property="mod_source_8"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_1_8"  type="number" >
+                0
+            </Value>
+            <Value property="mod_dest_2_8"  type="number" >
+                0
+            </Value>
+            <Value property="scaling_source_8"  type="number" >
+                0
+            </Value>
+        </Object>
+        <Object name="device_host" >
+            <Value property="sample_context"  type="number" >
+                0
+            </Value>
+        </Object>
+        <Object name="user_samples/exciter_sample" >
+            <Value property="root_key"  type="number" >
+                60
+            </Value>
+            <Value property="tune_cents"  type="number" >
+                50
+            </Value>
+            <Value property="play_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="play_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_range_start"  type="number" >
+                0
+            </Value>
+            <Value property="loop_range_end"  type="number" >
+                1
+            </Value>
+            <Value property="loop_mode"  type="number" >
+                0
+            </Value>
+            <Value property="preview_volume_level"  type="number" >
+                100
+            </Value>
+            <Value property="item"  type="sample" >
+                0
+            </Value>
+        </Object>
+    </Properties>
+</JukeboxPatch>
